@@ -1,0 +1,11 @@
+{
+  "name": "mundopet",
+  "description": "Aplicação web para agendamentos de serviços para pet",
+  "author": "João Guilherme",
+  "scripts": {
+    "server": "json-server --watch server.json --port 3333"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.21"
+  }
+}
