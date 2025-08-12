@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento Pet Shop</title>
+</head>
+<body>
+    <div>
+
+        <main>
+            <h1>Sua agenda</h1>
+            <p>Aqui você pode ver todos os clientes e serviços agendados para hoje.</p>
+
+            <div>
+                <ul id="period-morning" class="period">
+                    <strong>Manhã</strong>
+                    <li>
+                        <strong>09:00</strong>
+                        <h2>Thor<span>/João Guilherme</span></h2>
+                        <span>Vacinação</span>
+                        <span class="cancel-icon">Remover agendamento</span>
+                    </li>
+                </ul id="period-afternoon" class="period">
+
+                <ul class="period">
+                    <strong>Tarde</strong>
+                    <li>
+                        <strong>09:00</strong>
+                        <h2>Thor<span>/João Guilherme</span></h2>
+                        <span>Vacinação</span>
+                        <span class="cancel-icon">Remover agendamento</span>
+                    </li>
+                </ul>
+
+                <ul id="period-night" class="period">
+                    <strong>Noite</strong>
+                    <li>
+                        <strong>09:00</strong>
+                        <h2>Thor<span>/João Guilherme</span></h2>
+                        <span>Vacinação</span>
+                        <span class="cancel-icon">Remover agendamento</span>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+        <aside>
+            <button id="new-schedule" class="button">Novo agendamento</button>
+            <form class="form">
+                <h1>Agende um atendimento</h1>
+                <p>Preencha os dados do cliente para realizar o agendamento:</p>
+
+                <div>
+                    <img src="./assets/User.png" alt="">
+                    <label for="person-name">Nome do tutor</label>
+                    <input type="text" name="person" id="person-name" required placeholder="Helena Souza">
+                </div>
+
+                <div>
+                    <img src="./assets/Pet Paw.png" alt="">
+                    <label for="pet-name">Nome do pet</label>
+                    <input type="text" name="pet" id="pet-name" placeholder="Cheddar">
+                </div>
+
+                <div>
+                    <img src="./assets/Phone.png" alt="">
+                    <label for="telephone">Telefone</label>
+                    <input type="tel" name="telephone" id="telephone" placeholder="(00) 00000-0000" required>
+                </div>
+
+                <div>
+                    <label for="description">Descrição do serviço</label>
+                    <textarea name="description" id="description" placeholder="Banho e tosa" required></textarea>
+                </div>
+
+                <div>
+                    <img src="./assets/Calendar Minimalistic.png" alt="">
+                    <label for="date">Data</label>
+                    <input type="date" name="date" id="date" required>
+                </div>
+
+                <div>
+                    <img src="./assets/Clock Circle.png" alt="">
+                    <label for="hour">Hora</label>
+                    <input type="time" name="hour" id="hour" required>
+                </div>
+
+                <button id="schedule" type="submit" class="button">Agendar</button>
+            </form>
+        </aside>
+    </div>
+
+</body>
+</html>
