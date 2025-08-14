@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> ✂️ Hair Day - Agendamento para corte de cabelo
+  <h1> 🐶 Mundo Pet - Agendamento para pet Shop
 </div>
 
 <div align="center">
